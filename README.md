@@ -55,3 +55,20 @@ Before working on the project, activate the corresponding environment
 ### Install Flask
 
 ` $ pip install flask`
+
+### Hide .venv folder
+
+To hide the env folder, create a new file with the name ".gitignore". Add the following line of code:
+
+`# Virtual Environment`
+`.venv/ `
+
+# Run the app
+
+To run the app, type the followint in the terminal:
+
+`python -m flask`
+`flask run`
+
+Because our file is named 'app.py', the command will look like this.
+If our file was named 'hello.py', the command would be 'flask --app hello run'
