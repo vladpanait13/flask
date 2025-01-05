@@ -25,4 +25,25 @@ git push origin main
 ## git pull
 
 git checkout main
+
 git pull origin main
+
+# Environment variables
+
+It is recommended to set up environment variables in python (especially if working on many projects) in order to not mess up the python environment installed locally
+
+### CREATE AN ENVIRONMENT
+
+`mkdir myproject`
+`cd myproject`
+`py -3 -m vend .venv`
+
+### ACTIVATE ENVIRONMENT
+
+Before working on the project, activate the corresponding environment
+
+`.venv\Scripts\activate`
+
+### Install Flask
+
+` $ pip install flask`
