@@ -58,17 +58,26 @@ Before working on the project, activate the corresponding environment
 
 ### Hide .venv folder
 
-To hide the env folder, create a new file with the name ".gitignore". Add the following line of code:
+To hide the env folder (and pycache), create a new file with the name ".gitignore". Add the following line of code:
 
 `# Virtual Environment`
 `.venv/ `
 
 # Run the app
 
-To run the app, type the followint in the terminal:
+To run the app, type the following in the terminal:
 
 `python -m flask`
+
 `flask run`
 
 Because our file is named 'app.py', the command will look like this.
 If our file was named 'hello.py', the command would be 'flask --app hello run'
+
+For running in debug mode, type:
+`flask run --debug`
+or
+`flask --app hello run --debug`
+
+Alternately, we can add the following line in the .py file
+`app.run(debug=True)`

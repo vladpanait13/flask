@@ -28,6 +28,11 @@ def login_get():
 def login_post():
     return "<p>Hello, world!</p>"
 
+@app.route('/guide', methods=['GET', 'POST'])
+def add_guide():
+  title = request.form['title']
+  return "<p>This is a POST request</p>"
+
 
 
 
