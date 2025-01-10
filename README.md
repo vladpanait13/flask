@@ -56,6 +56,10 @@ Before working on the project, activate the corresponding environment
 
 ` $ pip install flask`
 
+### Install Docker Api
+
+` $ pip install docker`
+
 ### Hide .venv folder
 
 To hide the env folder (and pycache), create a new file with the name ".gitignore". Add the following line of code:
